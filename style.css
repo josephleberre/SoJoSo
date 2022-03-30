@@ -183,3 +183,350 @@ article a {
 .footer {
     clear:both;
 }
+
+@media only screen and (max-width: 950px) {
+
+    body, html {
+        font-size: 14px;
+        color: rgba(0,0,0,0.87);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.4;
+        margin: 0;
+        font-weight: 400;
+        background: #fbfbfb;
+    }
+
+    .topbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+        background: #FFF;
+        padding: 30px;
+        z-index:3;
+        box-shadow: 0 4px 30px rgba(94, 69, 69, 0.05);
+    }
+    
+    .topbar nav {
+        float: left;
+    }
+    
+    .topbar nav a {
+        color: #9F9F9F;
+        text-decoration: none;
+        font-weight: 500;
+        margin: 0 15px;
+    }
+    
+    .topbar nav a:hover, .topbar nav a.active {
+        color: #000
+    }
+    
+    .topbar .social {
+        float: right;
+    }
+    
+    .social a {
+        padding:0 12px;
+        opacity: .50;
+    }
+    
+    .social a:hover {
+        opacity: 1;
+    }
+    
+    .banniere {
+        height: 427px;
+        background: no-repeat center center / cover url("img/header.jpg");
+    }
+    
+    .main {
+        float:left;
+        width:auto;
+        background: #FFF;
+        box-shadow: 0 4px 30px rgba(94, 69, 69, 0.05);
+        z-index: 2;
+        position:relative;
+        height: auto;
+    }
+    
+    .sidebar {
+        float:left;
+        width:auto;
+        background: #fbfbfb;
+        padding: 40px;
+        z-index:1;
+        position:relative;
+        left: 0;
+        right: 0;
+    }
+    
+    .sidebar-title {
+        font-size: 20px;
+        color: #000;
+        margin: 15px 0 ;
+    }
+    
+    .sidebar-title:first-child {
+        margin-top: 0;
+    }
+    
+    .sidebar a{
+        color: #9f9f9f9f;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .sidebar ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        font-size: 17px;
+        line-height:2.3;
+    }
+    
+    .sidebar li {
+        padding: 6px 0;
+    }
+    
+    .sidebar li:first-child{
+        padding-top: 0;
+    }
+    
+    .sidebar li:last-child{
+        padding-top: 0;
+    }
+    
+    .sidebar a:hover {
+        /*color: #000;*/
+        text-decoration: underline
+    }
+    
+    .sidebar hr {
+        border: none;
+        background: #c4c4c4;
+        height: 1px;
+        margin: 50px 0;
+    }
+    
+    .container{
+        margin: 0 auto;
+        max-width: 940px;
+    }
+    
+    .article {
+        position:relative;
+        margin: 50px 0;
+        padding-left: 333px;
+        min-height: 203px;
+    }
+    
+    article a {
+        color:inherit;
+        text-decoration: none;
+    
+    }
+    .article-img{
+        position: absolute;
+        left:0;
+        top:0;
+        width: 308px;
+        margin-right:25px;
+    
+    }
+    
+    .article-img img {
+        width:auto;
+        height:auto;
+    }
+    
+    .article-date{
+        font-weight: 100;
+        color: rgba(0 ,0,0 , 0.6);
+        margin-bottom: 5px;
+    }
+    
+    .article-title {
+        font-size: 1.5rem;
+        line-height: 1.1;
+        font-family: "Cardo", serif;
+        margin: 0 15 0 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    body, html {
+        font-size: 13px;
+        color: rgba(0,0,0,0.87);
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.2;
+        margin: 0;
+        font-weight: 300;
+        background: #fbfbfb;
+    }
+
+    .topbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+        background: #FFF;
+        padding: 25px;
+        z-index:3;
+        box-shadow: 0 4px 30px rgba(94, 69, 69, 0.05);
+    }
+    
+    .topbar nav {
+        float: left;
+    }
+    
+    .topbar nav a {
+        color: #9F9F9F;
+        text-decoration: none;
+        font-weight: 500;
+        margin: 0 5px;
+    }
+    
+    .topbar nav a:hover, .topbar nav a.active {
+        color: #000
+    }
+    
+    .topbar .social {
+        float: right;
+        width:auto;
+    }
+    
+    .social a {
+        padding:0 12px;
+        opacity: 0.50;
+    }
+    
+    .social a:hover {
+        opacity: 1;
+    }
+    
+    .banniere {
+        height: 300px;
+        width: auto;
+        background: no-repeat center center / cover url("img/header.jpg");
+    }
+    
+    .main {
+        float:left;
+        width:auto;
+        background: #FFF;
+        box-shadow: 0 4px 30px rgba(94, 69, 69, 0.05);
+        z-index: 2;
+        position:relative;
+        height: auto;
+    }
+    
+    .sidebar {
+        float:left;
+        width: 100px;
+        background: #fbfbfb;
+        padding: 15px;
+        z-index:1;
+        position:relative;
+        left: 0;
+        right: 0;
+    }
+    
+    .sidebar-title {
+        font-size: 15px;
+        color: #000;
+        margin: 15px 0 ;
+    }
+    
+    .sidebar-title:first-child {
+        margin-top: 0;
+    }
+    
+    .sidebar a{
+        color: #9f9f9f9f;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    .sidebar ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        font-size: 17px;
+        line-height:2.3;
+    }
+    
+    .sidebar li {
+        padding: 6px 0;
+    }
+    
+    .sidebar li:first-child{
+        padding-top: 0;
+    }
+    
+    .sidebar li:last-child{
+        padding-top: 0;
+    }
+    
+    .sidebar a:hover {
+        /*color: #000;*/
+        text-decoration: underline
+    }
+    
+    .sidebar hr {
+        border: none;
+        background: #c4c4c4;
+        height: 1px;
+        margin: 50px 0;
+    }
+    
+    .container{
+        margin: 0 auto;
+        max-width: 400px;
+        width: 60vw;
+
+    }
+    
+    .article {
+        position:relative;
+        padding-left: 10px;
+        max-width: 55vw;
+        width:auto;
+    }
+    
+    article a {
+        color:inherit;
+        text-decoration: none;
+    
+    }
+    .article-img{
+        position: relative;
+        left:0;
+        top:0;
+        width: 10px;
+        margin-right:20px;
+        height: 10px;
+    
+    }
+    
+    .article-img img {
+        width:55vw;
+        height:auto;
+    }
+    
+    .article-date{
+        font-weight: 100;
+        color: rgba(0 ,0,0 , 0.6);
+        margin-bottom: 5px;
+    }
+    
+    .article-title {
+        font-size: 1.4rem;
+        line-height: 1.1;
+        font-family: "Cardo", serif;
+        margin: 0 15 0 0;
+    }
+}
